@@ -1,0 +1,10 @@
+user_test = input("please input 1st number: ")
+user_equal = input("please input other 2nd number: ")
+user_non_equal = input("please input other 3rth number: ")
+
+var_test = (user_test == user_equal)
+print("the 1st and 2nd numbers aren't equal:", var_test)
+var_test1 = (user_test == user_equal)
+print("the 1st and 3rth numbers aren't equal:", var_test1)
+var_test2 = (user_test >= user_equal)
+print("the 1st number greater than 3rth number:", var_test2)
